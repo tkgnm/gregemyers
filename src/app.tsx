@@ -1,6 +1,8 @@
-import { useState } from "preact/hooks";
 import "./app.css";
 import headerImage from "./img/New-Title-Banter-Website.jpeg";
+import Router, { Route } from "preact-router";
+import { Home } from "./Home";
+import { About } from "./About";
 
 export function App() {
   return (
@@ -8,10 +10,10 @@ export function App() {
       <div>
         <img src={headerImage} class="logo" alt="Banner: Greg E Myers" />
       </div>
-      <h1>This is where the nav bar will go</h1>
-      <div class="card">
-        <p>This is where the body will go </p>
-      </div>
+      <Router>
+        <Route path="/" component={Home} />
+        <Route path="/about" component={About} />
+      </Router>
     </>
   );
 }
