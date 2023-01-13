@@ -8,7 +8,7 @@ export function App() {
       <div>
         <img src={headerImage} class="logo" alt="Banner: Greg E Myers" />
       </div>
-      <h1>Vite + Preact</h1>
+      <h1>This is where the nav bar will go</h1>
       <div class="card">
         <p>This is where the body will go </p>
       </div>
