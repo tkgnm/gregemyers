@@ -1,4 +1,3 @@
-import { Router } from "preact-router";
 import { Link } from "preact-router/match";
 
 export const NavBar = () => {
