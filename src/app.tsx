@@ -1,6 +1,6 @@
 import { useState } from "preact/hooks";
-import preactLogo from "./assets/preact.svg";
 import "./app.css";
+import headerImage from "./img/New-Title-Banter-Website.jpeg";
 
 export function App() {
   const [count, setCount] = useState(0);
@@ -8,12 +8,7 @@ export function App() {
   return (
     <>
       <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src="/vite.svg" class="logo" alt="Vite logo" />
-        </a>
-        <a href="https://preactjs.com" target="_blank">
-          <img src={preactLogo} class="logo preact" alt="Preact logo" />
-        </a>
+        <img src={headerImage} class="logo" alt="Header banner" />
       </div>
       <h1>Vite + Preact</h1>
       <div class="card">
