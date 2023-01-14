@@ -1,17 +1,26 @@
-import { useState } from "preact/hooks";
 import "./app.css";
-import headerImage from "./img/New-Title-Banter-Website.jpeg";
+import Router, { Route } from "preact-router";
+import { Home } from "./Home";
+import { Bio } from "./Bio";
+import { NavBar } from "./NavBar";
+import { Contact } from "./Contact";
 
 export function App() {
   return (
     <>
       <div>
-        <img src={headerImage} class="logo" alt="Banner: Greg E Myers" />
+        <img
+          src="https://gem.blipdiscs.com/img/banner.jpeg"
+          class="banner"
+          alt="Banner: Greg E Myers"
+        />
       </div>
-      <h1>This is where the nav bar will go</h1>
-      <div class="card">
-        <p>This is where the body will go </p>
-      </div>
+      <NavBar />
+      <Router>
+        <Route path="/" component={Home} />
+        <Route path="/bio" component={Bio} />
+        <Route path="/contact" component={Contact} />
+      </Router>
     </>
   );
 }
