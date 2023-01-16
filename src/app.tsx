@@ -4,6 +4,7 @@ import { Home } from "./Home";
 import { Bio } from "./Bio";
 import { NavBar } from "./NavBar";
 import { Contact } from "./Contact";
+import { Gallery } from "./Gallery";
 
 export function App() {
   return (
@@ -16,6 +17,7 @@ export function App() {
         />
       </div>
       <NavBar />
+      <Gallery />
       <Router>
         <Route path="/" component={Home} />
         <Route path="/bio" component={Bio} />
