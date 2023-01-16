@@ -1,4 +1,4 @@
-import { galleryItems } from "./fixtures/galleryItems";
+import { galleryItems } from "../fixtures/galleryItems";
 import { GalleryItem } from "./GalleryItem";
 
 export const Gallery = () => {
