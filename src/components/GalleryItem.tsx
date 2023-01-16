@@ -1,3 +1,5 @@
+import "./GalleryItems.css";
+
 type Props = {
   title: string;
   caption: string;
@@ -12,11 +14,11 @@ export const GalleryItem = ({
   content,
 }: Props) => {
   return (
-    <>
+    <figure>
       <div>{title}</div>
-      <div>{caption}</div>
-      <img src={coverImageURL} alt="" />
-      <div dangerouslySetInnerHTML={{ __html: content }}></div>
-    </>
+      <figcaption>{caption}</figcaption>
+      <img src={coverImageURL} alt="Gallery preview" />
+      {/* <div dangerouslySetInnerHTML={{ __html: content }}></div> */}
+    </figure>
   );
 };
