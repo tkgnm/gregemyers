@@ -1,9 +1,10 @@
 import "./app.css";
 import Router, { Route } from "preact-router";
-import { Home } from "./Home";
-import { Bio } from "./Bio";
-import { NavBar } from "./NavBar";
-import { Contact } from "./Contact";
+import { Home } from "./components/Home";
+import { Bio } from "./components/Bio";
+import { NavBar } from "./components/NavBar";
+import { Contact } from "./components/Contact";
+import { Gallery } from "./components/Gallery";
 
 export function App() {
   return (
@@ -16,6 +17,7 @@ export function App() {
         />
       </div>
       <NavBar />
+      <Gallery />
       <Router>
         <Route path="/" component={Home} />
         <Route path="/bio" component={Bio} />
