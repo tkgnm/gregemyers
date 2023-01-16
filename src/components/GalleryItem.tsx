@@ -17,7 +17,7 @@ export const GalleryItem = ({
     <figure>
       <div>{title}</div>
       <figcaption>{caption}</figcaption>
-      <img src={coverImageURL} alt="Gallery preview" />
+      <img src={coverImageURL} alt="Gallery preview" width="200" />
       {/* <div dangerouslySetInnerHTML={{ __html: content }}></div> */}
     </figure>
   );
