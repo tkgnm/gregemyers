@@ -12,3 +12,7 @@
 .grid-item:hover {
     box-shadow: inset 0 0 0 1px gray;
 }
+
+.grid-item:active {
+    background-color: gray;
+}

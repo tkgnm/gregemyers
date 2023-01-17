@@ -19,12 +19,12 @@ export function App() {
       <NavBar />
 
       {/* actual page content should go here, defaults to blank if on the home page */}
-      <Gallery />
       <Router>
         <Route path="/" component={Home} />
         <Route path="/bio" component={Bio} />
         <Route path="/contact" component={Contact} />
       </Router>
+      <Gallery />
     </>
   );
 }
