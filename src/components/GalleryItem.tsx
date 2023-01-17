@@ -1,4 +1,4 @@
-import "./GalleryItems.css";
+import "./GalleryItem.css";
 
 type Props = {
   title: string;
