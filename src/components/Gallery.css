@@ -4,9 +4,10 @@
 }
 
 .grid-item {
+    display: flex;
     width: 16rem;
-    align-self: center;
     justify-self: center;
+    justify-content: center;
 }
 
 .grid-item:hover {
