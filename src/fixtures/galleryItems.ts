@@ -3,24 +3,23 @@ import type { GalleryItem } from "../types/GalleryItem";
 export const galleryItems: GalleryItem[] = [
   {
     id: "1",
-    title: "Earth portals 2.0",
+    title: "Earth Portals 2.0 🌍 💫 ",
     caption: "Chem 70x59cm Shelter 48x48cm",
     coverImageURL: "https://gem.blipdiscs.com/img/gallerythumbnails/1.jpeg",
     content: "My example content",
   },
   {
     id: "2",
-    title: "Zoom paradise",
-    caption:
-      "Zoom Paradise 🏝 46x36cm - Digital Print Custom fade box frame by myself",
+    title: "Zoom Paradise 🏝",
+    caption: "46x36cm - Digital Print Custom fade box frame by myself",
     coverImageURL: "https://gem.blipdiscs.com/img/gallerythumbnails/2.jpeg",
     content: "My second content",
   },
   {
     id: "3",
-    title: "Earth portals",
+    title: "Earth Portals 🌍 💫 ",
     caption:
-      "Roof (I) 43x54cm Roof (II) 46x54cm White Curl 60x60cm Roof (I) 43x54cm Flat Roof 60x60cm",
+      "Roof (I) 43x54cm Roof (II) 46x54cm White Curl 60x60cm Flat Roof 60x60cm",
     coverImageURL: "https://gem.blipdiscs.com/img/gallerythumbnails/3.jpeg",
     content: "My third content",
   },
