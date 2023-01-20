@@ -1,8 +1,8 @@
-figure {
+.gallery-item {
     font-weight: 800;
 }
 
-figcaption {
+.gallery-item-caption {
     color: gray;
     font-size: 0.8rem;
 }

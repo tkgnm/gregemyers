@@ -6,7 +6,7 @@ export const galleryItems: GalleryItem[] = [
     title: "Earth Portals 2.0 🌍 💫 ",
     caption: "Chem 70x59cm Shelter 48x48cm",
     coverImageURL: "https://gem.blipdiscs.com/img/gallerythumbnails/1.jpeg",
-    content: "My example content",
+    content: `<img src="https://gem.blipdiscs.com/img/galleryimages/1/1.jpeg">`,
   },
   {
     id: "2",
