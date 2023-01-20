@@ -8,6 +8,7 @@ You will need `yarn` installed.
 Simply run:
 
 ```sh
-yarn dev
+yarn #installs dependencies
+yarn dev #starts the development server
 ```
 
