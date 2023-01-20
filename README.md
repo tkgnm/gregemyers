@@ -3,7 +3,7 @@ A website I made for my very artistic friend. Vite, Preact + Typescript. In prog
 
 # How to start the development server
 
-You will need `yarn` installed.
+You will need [`yarn`](https://yarnpkg.com/) installed.
 
 Simply run:
 
