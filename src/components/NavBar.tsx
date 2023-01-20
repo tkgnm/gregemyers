@@ -18,7 +18,7 @@ export const NavBar = () => {
           </li>
           <li>
             <Link href="https://www.instagram.com/gregemyers/" target="_blank">
-              Instagram
+              Instagram ⬈
             </Link>
           </li>
           <li>
