@@ -1,3 +1,5 @@
+import "./Content.css";
+
 type Props = {
   path: string;
   content: string;
