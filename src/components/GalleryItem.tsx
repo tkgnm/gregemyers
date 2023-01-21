@@ -9,10 +9,10 @@ type Props = {
 
 export const GalleryItem = ({ id, title, caption, coverImageURL }: Props) => {
   return (
-    <figure>
+    <div className="gallery-item">
       <div>{title}</div>
-      <figcaption>{caption}</figcaption>
+      <div className="gallery-item-caption">{caption}</div>
       <img src={coverImageURL} alt="Gallery preview" width="200" />
-    </figure>
+    </div>
   );
 };

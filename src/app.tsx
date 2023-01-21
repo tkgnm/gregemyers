@@ -27,7 +27,7 @@ export function App() {
         <Route path="/bio" component={Bio} />
         <Route path="/contact" component={Contact} />
         {galleryItems.map((item) => (
-          <Content path={`${item.id}`} content={`${item.id}`} />
+          <Content path={`${item.id}`} content={`${item.content}`} />
         ))}
       </Router>
       <Gallery />
