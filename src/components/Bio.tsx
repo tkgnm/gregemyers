@@ -1,6 +1,6 @@
 export const Bio = () => {
   return (
-    <div>
+    <div style={`max-width: 768px; margin:0 auto;`}>
       <h2>Bio</h2>
       <h3>Greg Ellis Myers</h3>
       b. Rochford, Essex
