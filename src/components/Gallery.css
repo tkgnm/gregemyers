@@ -5,7 +5,12 @@
 }
 
 .grid-item {
-    padding: 1rem;
+    padding: 1rem; 
+    width: fit-content;
+    display: flex;
+    width: 12rem;
+    justify-content: center;
+    justify-self: center;
 }
 
 .grid-item:hover {
