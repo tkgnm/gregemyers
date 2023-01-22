@@ -3,9 +3,9 @@ A website I made for my very artistic friend. Vite, Preact + Typescript. In prog
 
 # How to start the development server
 
-You will need [`yarn`](https://yarnpkg.com/) installed.
+You will need [`yarn`](https://yarnpkg.com/) installed. 
 
-Simply run:
+Navigate into the root directory of the repository. Open up your terminal and run:
 
 ```sh
 yarn #installs dependencies
