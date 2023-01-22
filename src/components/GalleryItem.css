@@ -1,9 +1,12 @@
-.gallery-item {
+/* .gallery-item {
     font-weight: 800;
-}
+} */
 
+.gallery-item-title {
+    font-weight: 700;;
+    font-size: 0.8rem;
+}
 .gallery-item-caption {
     color: gray;
     font-size: 0.8rem;
 }
-

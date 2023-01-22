@@ -66,8 +66,7 @@ export const galleryItems: GalleryItem[] = [
   {
     id: "5",
     title: "I'm Here & Everywhere (Morning & Night)",
-    caption:
-      "A forthcoming short film based on a series of photographs related to my filtered online self.",
+    caption: "A forthcoming short film",
     coverImageURL: "https://gem.blipdiscs.com/img/gallerythumbnails/5.jpeg",
     content: `
     <p><img class="content" src="https://gem.blipdiscs.com/img/galleryimages/5/1.jpeg"></p>
@@ -102,7 +101,7 @@ export const galleryItems: GalleryItem[] = [
   {
     id: "8",
     title: "Home Sweet Home",
-    caption: "A aeries of 24 photographs, photocopies & cardboard boxes",
+    caption: "A series of 24 photographs, photocopies & cardboard boxes",
     coverImageURL: "https://gem.blipdiscs.com/img/gallerythumbnails/8.jpeg",
     content: `
     <p><img class="content" src="https://gem.blipdiscs.com/img/galleryimages/8/1.jpeg"></p>
