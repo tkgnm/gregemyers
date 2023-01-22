@@ -28,7 +28,9 @@ export function App() {
         <Route path="/contact" component={Contact} />
         {galleryItems.map((item) => (
           <Content
-            path={`${item.id}`}
+            path={`${item.title
+              .replace(/[^a-zA-Z0-9 -]|[\s]/gu, "")
+              .toLowerCase()}`}
             title={item.title}
             body={`${item.content}`}
           />
