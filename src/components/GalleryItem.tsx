@@ -10,9 +10,13 @@ type Props = {
 export const GalleryItem = ({ id, title, caption, coverImageURL }: Props) => {
   return (
     <div className="gallery-item">
-      <div>{title}</div>
+      <img
+        className="gallery-item-img"
+        src={coverImageURL}
+        alt="Gallery preview"
+      />
+      <div className="gallery-item-title">{title}</div>
       <div className="gallery-item-caption">{caption}</div>
-      <img src={coverImageURL} alt="Gallery preview" width="200" />
     </div>
   );
 };

@@ -1,9 +1,20 @@
 .gallery-item {
-    font-weight: 800;
+    text-align: left;
+    width: 200px;
+}
+
+.gallery-item-img {
+    width: 12.5rem;
+    align-items: center;
+    
+}
+
+.gallery-item-title {
+    font-weight: 700;;
+    font-size: 1rem;
 }
 
 .gallery-item-caption {
     color: gray;
     font-size: 0.8rem;
 }
-
