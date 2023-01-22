@@ -1,6 +1,7 @@
 import "./app.css";
 import Router, { Route } from "preact-router";
 import { Home } from "./components/Home";
+import { Banner } from "./components/Banner";
 import { Bio } from "./components/Bio";
 import { NavBar } from "./components/NavBar";
 import { Contact } from "./components/Contact";
@@ -11,17 +12,8 @@ import { galleryItems } from "./fixtures/galleryItems";
 export function App() {
   return (
     <>
-      <div>
-        <img
-          src="https://gem.blipdiscs.com/img/banner.jpeg"
-          class="banner"
-          alt="Banner: Greg E Myers"
-        />
-      </div>
+      <Banner />
       <NavBar />
-      {/* <Content /> */}
-
-      {/* actual page content should go here, defaults to blank if on the home page */}
       <Router>
         <Route path="/" component={Home} />
         <Route path="/bio" component={Bio} />
