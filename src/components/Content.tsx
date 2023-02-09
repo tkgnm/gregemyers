@@ -19,18 +19,21 @@ export const Content = ({
   pictures,
   date,
 }: Props) => {
+  const dateFromUnix = new Date(date * 1000);
+  const month = dateFromUnix.toLocaleString("default", {
+    month: "long",
+  });
+  const year = dateFromUnix.getFullYear();
+  const formattedDate = `${month} ${year}`;
+
   return (
     <>
       <h2>{title}</h2>
       <p>{description}</p>
       <p>{subtitle}</p>
-      <p>{date}</p>
+      <p>{formattedDate}</p>
       {/* <img src={"https://gem.blipdiscs.com/img/galleryimages/1/1.jpeg"} /> */}
       <div>
-        {/* {pictures.map((picture) => {
-          // <img src={picture.url} />;
-          picture.caption && <p>{picture.caption}</p>;
-        })} */}
         {pictures.map((picture) => (
           <figure>
             <p>
