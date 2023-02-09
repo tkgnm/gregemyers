@@ -24,7 +24,10 @@ export function App() {
               .replace(/[^a-zA-Z0-9 -]|[\s]/gu, "")
               .toLowerCase()}`}
             title={item.title}
-            body={`${item.content}`}
+            subtitle={item.subtitle}
+            description={item.description}
+            pictures={item.pictures}
+            date={item.date}
           />
         ))}
       </Router>

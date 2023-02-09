@@ -1,7 +1,15 @@
 export interface GalleryItem {
   id: string;
-  title: string;
-  caption: string;
   coverImageURL: string;
-  content: string;
+  title: string;
+  subtitle?: string;
+  caption: string;
+  description?: string;
+  pictures: Picture[];
+  date: number;
+}
+
+export interface Picture {
+  url: string;
+  caption?: string;
 }
