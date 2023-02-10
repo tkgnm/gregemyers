@@ -1,6 +1,6 @@
 import type { GalleryItem } from "../types/GalleryItem";
 
-export const galleryItems: GalleryItem[] = [
+const items: GalleryItem[] = [
   {
     id: "1",
     coverImageURL: "https://gem.blipdiscs.com/img/gallerythumbnails/1.jpeg",
@@ -206,3 +206,5 @@ export const galleryItems: GalleryItem[] = [
     date: 1643584508,
   },
 ];
+
+export const galleryItems = items.sort((a, b) => b.date - a.date);
