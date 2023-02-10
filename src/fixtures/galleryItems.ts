@@ -5,7 +5,7 @@ export const galleryItems: GalleryItem[] = [
     id: "1",
     coverImageURL: "https://gem.blipdiscs.com/img/gallerythumbnails/1.jpeg",
     title: "Earth Portals 2.0 🌍 💫 ",
-    caption: "Chem, Shelter",
+    caption: "Giclee Print In Custom Spray Frame",
     pictures: [
       {
         url: "https://gem.blipdiscs.com/img/galleryimages/1/1.jpeg",
@@ -30,7 +30,7 @@ export const galleryItems: GalleryItem[] = [
     id: "2",
     coverImageURL: "https://gem.blipdiscs.com/img/gallerythumbnails/2.jpeg",
     title: "Zoom Paradise 🏝",
-    caption: "Digital print, custom fade box frame",
+    caption: "C-type Prints",
     description: "Zoom Paradise - 46x36cm Digital Print",
     pictures: [
       {
@@ -51,8 +51,8 @@ export const galleryItems: GalleryItem[] = [
   {
     id: "3",
     title: "Earth Portals 🌍 💫 ",
-    // this captionshould be changed
-    caption: "Roof (I), Roof (II), White Curl, Flat Roof",
+    // this caption should be changed
+    caption: "C-type Prints",
     coverImageURL: "https://gem.blipdiscs.com/img/gallerythumbnails/3.jpeg",
     pictures: [
       {
@@ -77,7 +77,7 @@ export const galleryItems: GalleryItem[] = [
   {
     id: "4",
     title: "Content Filtering L to R",
-    caption: "Digital prints on paper photos",
+    caption: "Giclee Prints on Papers",
     coverImageURL: "https://gem.blipdiscs.com/img/gallerythumbnails/4.jpeg",
     description:
       "Digital prints on paper photos - a collaborative show with Harriotte Hodson",
@@ -113,25 +113,9 @@ export const galleryItems: GalleryItem[] = [
     date: 1643584504,
   },
   {
-    id: "5",
-    title: "I'm Here & Everywhere (Morning & Night)",
-    caption: "A forthcoming short film",
-    coverImageURL: "https://gem.blipdiscs.com/img/gallerythumbnails/5.jpeg",
-    description: "A forthcoming short film based on a series of photographs",
-    pictures: [
-      {
-        url: "https://gem.blipdiscs.com/img/galleryimages/5/1.jpeg",
-      },
-      {
-        url: "https://gem.blipdiscs.com/img/galleryimages/5/2.jpeg",
-      },
-    ],
-    date: 1643584503,
-  },
-  {
     id: "6",
     title: "Shades of Blue Archive (Jpgs)",
-    caption: "A Series Of 13 Digital Prints on Paper",
+    caption: "A Series Of 13 Giclee Prints on Paper",
     coverImageURL: "https://gem.blipdiscs.com/img/gallerythumbnails/6.jpeg",
     pictures: [
       {
@@ -205,5 +189,20 @@ export const galleryItems: GalleryItem[] = [
       },
     ],
     date: 1643584500,
+  },
+  {
+    id: "9",
+    title: "Beech Ball In The Shade",
+    caption: "Woodblock Print on Paper",
+    coverImageURL: "https://gem.blipdiscs.com/img/gallerythumbnails/9.jpeg",
+    pictures: [
+      {
+        url: "https://gem.blipdiscs.com/img/galleryimages/9/1.jpeg",
+      },
+      {
+        url: "https://gem.blipdiscs.com/img/galleryimages/9/2.jpeg",
+      },
+    ],
+    date: 1643584508,
   },
 ];

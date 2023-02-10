@@ -2,6 +2,27 @@ export const Bio = () => {
   return (
     <div style={`max-width: 768px; margin:0 auto;`}>
       <h2>Bio</h2>
+      <p>
+        Growing up in Essex is a continuous source of influence for my work. My
+        father is a engineer, meaning I spent a lot of time in scrap yards and
+        industrial estates. This influenced my work’s aesthetic to use
+        industrialisation contrasted with elements of nature as a representation
+        for the digital age. Through utilising apps and readymade filters to
+        distort and enhance my imagery, I explore how far you can use the
+        manipulation of online platforms to drain the original meaning out of
+        the image. I call this imagery “Earth Portals” as they become gateways
+        to alternate spaces through transforming the surroundings in that we
+        live. These portals leave space for viewers to engage with their own
+        experiences when looking at the imagery permitting augmented realities,
+        fictional narratives and shared beliefs. This is especially interesting
+        in an age of processed selfies, AI generated images and fake news. We
+        are perpetually bombarded with images that are constantly having their
+        value and purpose redefined through data sets and algorithms. My
+        practise asks questions of what is real once an image is created and
+        manipulated and exploring the relevance art has to play in the virtual
+        world.
+      </p>
+      <h2>CV</h2>
       <h3>Greg Ellis Myers</h3>
       b. Rochford, Essex
       <h3>Education</h3>
