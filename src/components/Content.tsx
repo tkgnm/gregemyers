@@ -31,8 +31,7 @@ export const Content = ({
       <h2>{title}</h2>
       <p>{description}</p>
       <p>{subtitle}</p>
-      <p>{formattedDate}</p>
-      {/* <img src={"https://gem.blipdiscs.com/img/galleryimages/1/1.jpeg"} /> */}
+      {/* <p>{formattedDate}</p> */}
       <div>
         {pictures.map((picture) => (
           <figure>
