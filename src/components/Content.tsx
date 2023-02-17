@@ -31,14 +31,22 @@ export const Content = ({
       <h2>{title}</h2>
       <p>{description}</p>
       <p>{subtitle}</p>
-      {/* <p>{formattedDate}</p> */}
       <div>
         {pictures.map((picture) => (
           <figure>
             <p>
-              <img src={picture.url} className="content" />
+              <img
+                src={picture.url}
+                className="content"
+                alt={(picture.title, picture.technicalDetail)}
+              />
             </p>
-            <figcaption>{picture.caption}</figcaption>
+            {!picture.hideCaption && (
+              <figcaption>
+                <em>{picture.title}</em>, {year} <br />
+                {picture.technicalDetail}
+              </figcaption>
+            )}
           </figure>
         ))}
       </div>

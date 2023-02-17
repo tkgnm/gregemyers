@@ -35,7 +35,7 @@ export const Bio = () => {
       </p>
       <p>
         2020 - This is Not a Show this is a Statement of Intent : Pineapple
-        Black Gallery, Middlesbroug
+        Black Gallery, Middlesbrough
       </p>
       <p>
         2020 - Thinking Inside The Box, Architecture In The Age of Lockdown :

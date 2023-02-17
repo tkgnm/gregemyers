@@ -11,5 +11,7 @@ export interface GalleryItem {
 
 export interface Picture {
   url: string;
-  caption?: string;
+  title?: string;
+  technicalDetail?: string;
+  hideCaption?: boolean;
 }
