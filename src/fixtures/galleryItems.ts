@@ -3,114 +3,103 @@ import type { GalleryItem } from "../types/GalleryItem";
 const items: GalleryItem[] = [
   {
     id: "1",
+    // this coverImageURL should be changed to the first image in the pictures array
     coverImageURL: "https://gem.blipdiscs.com/img/gallerythumbnails/1.jpeg",
     title: "Earth Portals 2.0 🌍 💫 ",
     caption: "Giclee Print In Custom Spray Frame",
     pictures: [
       {
-        url: "https://gem.blipdiscs.com/img/galleryimages/1/1.jpeg",
-        caption: "Chem - 70x59cm",
+        url: "https://gem.blipdiscs.com/img/galleryimages/9/1.jpeg",
+        title: "Shade",
+        technicalDetail: "C-type print, 35x70cm",
       },
       {
-        url: "https://gem.blipdiscs.com/img/galleryimages/1/2.jpeg",
-        caption: "Chem - 70x59cm",
+        url: "https://gem.blipdiscs.com/img/galleryimages/1/1.jpeg",
+        title: "Chem",
+        technicalDetail: "C-type print, 70x59cm",
       },
       {
         url: "https://gem.blipdiscs.com/img/galleryimages/1/3.jpeg",
-        caption: "Shelter - 48x48cm",
-      },
-      {
-        url: "https://gem.blipdiscs.com/img/galleryimages/1/4.jpeg",
-        caption: "Shelter - 48x48cm",
+        title: "Shelter",
+        technicalDetail: "C-type print, 48x48cm",
       },
     ],
-    date: 1643584507,
+    date: 1641079797,
   },
   {
     id: "2",
     coverImageURL: "https://gem.blipdiscs.com/img/gallerythumbnails/2.jpeg",
     title: "Zoom Paradise 🏝",
     caption: "C-type Prints",
-    description: "Zoom Paradise - 46x36cm Digital Print",
     pictures: [
       {
         url: "https://gem.blipdiscs.com/img/galleryimages/2/1.jpeg",
+        title: "Zoom Paradise",
+        technicalDetail:
+          "Digital print on paper in custom spray fade box frame, 46x36cm",
       },
       {
         url: "https://gem.blipdiscs.com/img/galleryimages/2/2.jpeg",
-      },
-      {
-        url: "https://gem.blipdiscs.com/img/galleryimages/2/3.jpeg",
-      },
-      {
-        url: "https://gem.blipdiscs.com/img/galleryimages/2/4.jpeg",
+        title: "Zoom Paradise",
+        technicalDetail:
+          "Digital print on paper in custom spray fade box frame, 46x36cm",
+        hideCaption: true,
       },
     ],
-    date: 1643584506,
+    date: 1609543797,
   },
   {
     id: "3",
     title: "Earth Portals 🌍 💫 ",
-    // this caption should be changed
     caption: "C-type Prints",
     coverImageURL: "https://gem.blipdiscs.com/img/gallerythumbnails/3.jpeg",
     pictures: [
       {
         url: "https://gem.blipdiscs.com/img/galleryimages/3/1.jpeg",
-        caption: "Roof (I) - 43x54cm",
+        title: "Roof (I)",
+        technicalDetail: "C-type print, 43x54cm",
       },
       {
         url: "https://gem.blipdiscs.com/img/galleryimages/3/2.jpeg",
-        caption: "Roof (II) - 46x54cm",
-      },
-      {
-        url: "https://gem.blipdiscs.com/img/galleryimages/3/3.jpeg",
-        caption: "White Curl - 60x60cm",
-      },
-      {
-        url: "https://gem.blipdiscs.com/img/galleryimages/3/4.jpeg",
-        caption: "Flat Roof - 60x60cm",
+        title: "Roof (II)",
+        technicalDetail: "C-type print, 46x54cm",
       },
     ],
-    date: 1643584505,
+    date: 1577921397,
   },
   {
     id: "4",
     title: "Content Filtering L to R",
     caption: "Giclee Prints on Papers",
     coverImageURL: "https://gem.blipdiscs.com/img/gallerythumbnails/4.jpeg",
-    description:
-      "Digital prints on paper photos - a collaborative show with Harriotte Hodson",
     pictures: [
       {
         url: "https://gem.blipdiscs.com/img/galleryimages/4/1.jpeg",
-      },
-      {
-        url: "https://gem.blipdiscs.com/img/galleryimages/4/2.jpeg",
+        title: "Midnight Media Player",
+        technicalDetail: "Giclee print, 80x60cm",
       },
       {
         url: "https://gem.blipdiscs.com/img/galleryimages/4/3.jpeg",
-      },
-      {
-        url: "https://gem.blipdiscs.com/img/galleryimages/4/4.jpeg",
+        title: "Crowd Surfing",
+        technicalDetail: "Giclee print, 80x100cm",
       },
       {
         url: "https://gem.blipdiscs.com/img/galleryimages/4/5.jpeg",
-      },
-      {
-        url: "https://gem.blipdiscs.com/img/galleryimages/4/6.jpeg",
+        title: "Drumstick",
+        technicalDetail: "Giclee print, 35x70cm",
       },
       {
         url: "https://gem.blipdiscs.com/img/galleryimages/4/7.jpeg",
+        title: "Crater Lake",
+        technicalDetail: "Giclee print, 35x80cm",
       },
       {
-        url: "https://gem.blipdiscs.com/img/galleryimages/4/8.jpeg",
-      },
-      {
-        url: "https://gem.blipdiscs.com/img/galleryimages/4/9.jpeg",
+        url: "https://gem.blipdiscs.com/img/galleryimages/4/2.jpeg",
+        title: "Gallery overview",
+        hideCaption: true,
       },
     ],
-    date: 1643584504,
+    date: 1483313397,
   },
   {
     id: "6",
@@ -119,37 +108,12 @@ const items: GalleryItem[] = [
     coverImageURL: "https://gem.blipdiscs.com/img/gallerythumbnails/6.jpeg",
     pictures: [
       {
-        url: "https://gem.blipdiscs.com/img/galleryimages/6/1.jpeg",
-      },
-      {
         url: "https://gem.blipdiscs.com/img/galleryimages/6/2.jpeg",
-      },
-      {
-        url: "https://gem.blipdiscs.com/img/galleryimages/6/3.jpeg",
-      },
-      {
-        url: "https://gem.blipdiscs.com/img/galleryimages/6/4.jpeg",
-      },
-      {
-        url: "https://gem.blipdiscs.com/img/galleryimages/6/5.jpeg",
-      },
-      {
-        url: "https://gem.blipdiscs.com/img/galleryimages/6/6.jpeg",
+        title: "Shades of Blue Archive (Jpgs)",
+        technicalDetail: "13 giclee prints on paper, 10x18cm",
       },
     ],
-    date: 1643584502,
-  },
-  {
-    id: "7",
-    title: "Scenario (Colour)",
-    caption: "A Series of shorts coming soon",
-    coverImageURL: "https://gem.blipdiscs.com/img/gallerythumbnails/7.jpeg",
-    pictures: [
-      {
-        url: "https://gem.blipdiscs.com/img/galleryimages/7/1.jpeg",
-      },
-    ],
-    date: 1643584501,
+    date: 1451690997,
   },
   {
     id: "8",
@@ -158,52 +122,92 @@ const items: GalleryItem[] = [
     coverImageURL: "https://gem.blipdiscs.com/img/gallerythumbnails/8.jpeg",
     pictures: [
       {
+        // make this one the cover image
         url: "https://gem.blipdiscs.com/img/galleryimages/8/1.jpeg",
+        title: "Home Sweet Home",
+        technicalDetail:
+          "A series of 24 photographs, photocopies & cardboard boxes",
       },
       {
         url: "https://gem.blipdiscs.com/img/galleryimages/8/2.jpeg",
+        title: "Home Sweet Home",
+        technicalDetail:
+          "A series of 24 photographs, photocopies & cardboard boxes",
+        hideCaption: true,
       },
       {
         url: "https://gem.blipdiscs.com/img/galleryimages/8/3.jpeg",
+        title: "Home Sweet Home",
+        technicalDetail:
+          "A series of 24 photographs, photocopies & cardboard boxes",
+        hideCaption: true,
       },
       {
         url: "https://gem.blipdiscs.com/img/galleryimages/8/4.jpeg",
+        title: "Home Sweet Home",
+        technicalDetail:
+          "A series of 24 photographs, photocopies & cardboard boxes",
+        hideCaption: true,
       },
       {
         url: "https://gem.blipdiscs.com/img/galleryimages/8/5.jpeg",
+        title: "Home Sweet Home",
+        technicalDetail:
+          "A series of 24 photographs, photocopies & cardboard boxes",
+        hideCaption: true,
       },
       {
         url: "https://gem.blipdiscs.com/img/galleryimages/8/6.jpeg",
+        title: "Home Sweet Home",
+        technicalDetail:
+          "A series of 24 photographs, photocopies & cardboard boxes",
+        hideCaption: true,
       },
       {
         url: "https://gem.blipdiscs.com/img/galleryimages/8/7.jpeg",
+        title: "Home Sweet Home",
+        technicalDetail:
+          "A series of 24 photographs, photocopies & cardboard boxes",
+        hideCaption: true,
       },
       {
         url: "https://gem.blipdiscs.com/img/galleryimages/8/8.jpeg",
+        title: "Home Sweet Home",
+        technicalDetail:
+          "A series of 24 photographs, photocopies & cardboard boxes",
+        hideCaption: true,
       },
       {
         url: "https://gem.blipdiscs.com/img/galleryimages/8/9.jpeg",
+        title: "Home Sweet Home",
+        technicalDetail:
+          "A series of 24 photographs, photocopies & cardboard boxes",
+        hideCaption: true,
       },
       {
         url: "https://gem.blipdiscs.com/img/galleryimages/8/10.jpeg",
+        title: "Home Sweet Home",
+        technicalDetail:
+          "A series of 24 photographs, photocopies & cardboard boxes",
+        hideCaption: true,
       },
     ],
-    date: 1643584500,
+    date: 1420154997,
   },
   {
     id: "9",
     title: "Beech Ball In The Shade",
     caption: "Woodblock Print on Paper",
+    // this coverImageURL needs to be te first picture in the pictures array
     coverImageURL: "https://gem.blipdiscs.com/img/gallerythumbnails/9.jpeg",
     pictures: [
       {
-        url: "https://gem.blipdiscs.com/img/galleryimages/9/1.jpeg",
-      },
-      {
         url: "https://gem.blipdiscs.com/img/galleryimages/9/2.jpeg",
+        title: "Beech Ball In The Shade (iOS)",
+        technicalDetail: "Woodblock print on paper, 35x70cm",
       },
     ],
-    date: 1643584508,
+    date: 1672615797,
   },
 ];
 
