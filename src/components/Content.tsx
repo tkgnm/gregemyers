@@ -1,5 +1,6 @@
 import "./Content.css";
 import type { Picture } from "../types/GalleryItem";
+import { Divider } from "./Divider";
 
 type Props = {
   // path is not used as a prop in the component,
@@ -31,7 +32,7 @@ export const Content = ({
       <h2>{title}</h2>
       <p>{description}</p>
       <p>{subtitle}</p>
-      <div>
+      <div className="page">
         {pictures.map((picture) => (
           <figure>
             <p>
@@ -49,6 +50,7 @@ export const Content = ({
             )}
           </figure>
         ))}
+        <Divider />
       </div>
     </>
   );

@@ -3,10 +3,9 @@ import type { GalleryItem } from "../types/GalleryItem";
 const items: GalleryItem[] = [
   {
     id: "1",
-    // this coverImageURL should be changed to the first image in the pictures array
-    coverImageURL: "https://gem.blipdiscs.com/img/gallerythumbnails/1.jpeg",
+    coverImageURL: "https://gem.blipdiscs.com/img/gallerythumbnails/9.jpeg",
     title: "Earth Portals 2.0 🌍 💫 ",
-    caption: "Giclee Print In Custom Spray Frame",
+    caption: "C-type ",
     pictures: [
       {
         url: "https://gem.blipdiscs.com/img/galleryimages/9/1.jpeg",
@@ -30,7 +29,7 @@ const items: GalleryItem[] = [
     id: "2",
     coverImageURL: "https://gem.blipdiscs.com/img/gallerythumbnails/2.jpeg",
     title: "Zoom Paradise 🏝",
-    caption: "C-type Prints",
+    caption: "Giclee Print In Custom Spray Frame",
     pictures: [
       {
         url: "https://gem.blipdiscs.com/img/galleryimages/2/1.jpeg",
@@ -198,8 +197,8 @@ const items: GalleryItem[] = [
     id: "9",
     title: "Beech Ball In The Shade",
     caption: "Woodblock Print on Paper",
-    // this coverImageURL needs to be te first picture in the pictures array
-    coverImageURL: "https://gem.blipdiscs.com/img/gallerythumbnails/9.jpeg",
+    coverImageURL:
+      "https://gem.blipdiscs.com/img/galleryThumbnails/thumb1.jpeg",
     pictures: [
       {
         url: "https://gem.blipdiscs.com/img/galleryimages/9/2.jpeg",

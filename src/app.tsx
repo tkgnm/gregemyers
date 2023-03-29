@@ -32,6 +32,8 @@ export function App() {
         ))}
       </Router>
       <Gallery />
+      <br />
+      All content on this site ©️ Greg E Myers
     </>
   );
 }
