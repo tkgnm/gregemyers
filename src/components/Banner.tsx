@@ -6,6 +6,8 @@ export const Banner = () => {
       <Link href="./">
         <img
           src="https://gem.blipdiscs.com/img/banner.jpeg"
+          width="480"
+          height="360"
           class="banner"
           alt="Banner: Greg E Myers"
         />

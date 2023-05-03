@@ -3,7 +3,11 @@ import type { GalleryItem } from "../types/GalleryItem";
 const items: GalleryItem[] = [
   {
     id: "1",
-    coverImageURL: "https://gem.blipdiscs.com/img/gallerythumbnails/9.jpeg",
+    coverImage: {
+      url: "https://gem.blipdiscs.com/img/gallerythumbnails/9.jpeg",
+      width: 440,
+      height: 260,
+    },
     title: "Earth Portals 2.0 🌍 💫 ",
     caption: "C-type ",
     pictures: [
@@ -27,7 +31,11 @@ const items: GalleryItem[] = [
   },
   {
     id: "2",
-    coverImageURL: "https://gem.blipdiscs.com/img/gallerythumbnails/2.jpeg",
+    coverImage: {
+      url: "https://gem.blipdiscs.com/img/gallerythumbnails/2.jpeg",
+      width: 440,
+      height: 260,
+    },
     title: "Zoom Paradise 🏝",
     caption: "Giclee Print In Custom Spray Frame",
     pictures: [
@@ -51,7 +59,11 @@ const items: GalleryItem[] = [
     id: "3",
     title: "Earth Portals 🌍 💫 ",
     caption: "C-type Prints",
-    coverImageURL: "https://gem.blipdiscs.com/img/gallerythumbnails/3.jpeg",
+    coverImage: {
+      url: "https://gem.blipdiscs.com/img/gallerythumbnails/3.jpeg",
+      width: 440,
+      height: 260,
+    },
     pictures: [
       {
         url: "https://gem.blipdiscs.com/img/galleryimages/3/1.jpeg",
@@ -70,7 +82,11 @@ const items: GalleryItem[] = [
     id: "4",
     title: "Content Filtering L to R",
     caption: "Giclee Prints on Papers",
-    coverImageURL: "https://gem.blipdiscs.com/img/gallerythumbnails/4.jpeg",
+    coverImage: {
+      url: "https://gem.blipdiscs.com/img/gallerythumbnails/4.jpeg",
+      width: 440,
+      height: 260,
+    },
     pictures: [
       {
         url: "https://gem.blipdiscs.com/img/galleryimages/4/1.jpeg",
@@ -104,7 +120,11 @@ const items: GalleryItem[] = [
     id: "6",
     title: "Shades of Blue Archive (Jpgs)",
     caption: "A Series Of 13 Giclee Prints on Paper",
-    coverImageURL: "https://gem.blipdiscs.com/img/gallerythumbnails/6.jpeg",
+    coverImage: {
+      url: "https://gem.blipdiscs.com/img/gallerythumbnails/6.jpeg",
+      width: 440,
+      height: 260,
+    },
     pictures: [
       {
         url: "https://gem.blipdiscs.com/img/galleryimages/6/2.jpeg",
@@ -118,10 +138,13 @@ const items: GalleryItem[] = [
     id: "8",
     title: "Home Sweet Home",
     caption: "A series of 24 photographs, photocopies & cardboard boxes",
-    coverImageURL: "https://gem.blipdiscs.com/img/gallerythumbnails/8.jpeg",
+    coverImage: {
+      url: "https://gem.blipdiscs.com/img/gallerythumbnails/8.jpeg",
+      width: 440,
+      height: 260,
+    },
     pictures: [
       {
-        // make this one the cover image
         url: "https://gem.blipdiscs.com/img/galleryimages/8/1.jpeg",
         title: "Home Sweet Home",
         technicalDetail:
@@ -197,8 +220,11 @@ const items: GalleryItem[] = [
     id: "9",
     title: "Beech Ball In The Shade",
     caption: "Woodblock Print on Paper",
-    coverImageURL:
-      "https://gem.blipdiscs.com/img/galleryThumbnails/thumb1.jpeg",
+    coverImage: {
+      url: "https://gem.blipdiscs.com/img/galleryThumbnails/thumb1.jpeg",
+      width: 440,
+      height: 260,
+    },
     pictures: [
       {
         url: "https://gem.blipdiscs.com/img/galleryimages/9/2.jpeg",

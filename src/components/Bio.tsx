@@ -10,9 +10,9 @@ export const Bio = () => {
           My father is a engineer, meaning I spent a lot of time in scrap yards
           and industrial estates. This influenced my work’s aesthetic to use
           industrialisation contrasted with elements of nature as a
-          representation for the digital age. Through utilising apps and
-          readymade filters to distort and enhance my imagery, I explore how far
-          you can use the manipulation of online platforms to drain the original
+          representation for the digital age. Through utilising apps and ready
+          made filters to distort and enhance my imagery, I explore how far you
+          can use the manipulation of online platforms to drain the original
           meaning out of the image. I call this imagery “Earth Portals” as they
           become gateways to alternate spaces through transforming the
           surroundings in that we live. These portals leave space for viewers to

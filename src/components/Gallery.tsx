@@ -18,7 +18,7 @@ export const Gallery = () => {
               id={item.id}
               title={item.title}
               caption={item.caption}
-              coverImageURL={item.coverImageURL}
+              coverImage={item.coverImage}
             />
           </Link>
         </div>
