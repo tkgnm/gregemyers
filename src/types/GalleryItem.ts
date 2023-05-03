@@ -9,15 +9,6 @@ export interface GalleryItem {
   date: number;
 }
 
-// export interface Picture {
-//   url: string;
-//   title?: string;
-//   technicalDetail?: string;
-//   hideCaption?: boolean;
-//   width: number;
-//   height: number;
-// }
-
 export interface Image {
   url: string;
   alt?: string;
