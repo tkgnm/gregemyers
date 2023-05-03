@@ -5,6 +5,7 @@
 
 .gallery-item-img {
     width: 12.5rem;
+    height: auto;
     align-items: center;
     
 }

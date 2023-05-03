@@ -1,6 +1,6 @@
 export interface GalleryItem {
   id: string;
-  coverImageURL: string;
+  coverImage: Image;
   title: string;
   subtitle?: string;
   caption: string;
@@ -9,8 +9,23 @@ export interface GalleryItem {
   date: number;
 }
 
-export interface Picture {
+// export interface Picture {
+//   url: string;
+//   title?: string;
+//   technicalDetail?: string;
+//   hideCaption?: boolean;
+//   width: number;
+//   height: number;
+// }
+
+export interface Image {
   url: string;
+  alt?: string;
+  width?: number;
+  height?: number;
+}
+
+export interface Picture extends Image {
   title?: string;
   technicalDetail?: string;
   hideCaption?: boolean;
