@@ -7,7 +7,7 @@ export const Bio = () => {
         <h2>Bio</h2>
         <p>
           Growing up in Essex is a continuous source of influence for my work.
-          My father is a engineer, meaning I spent a lot of time in scrap yards
+          My father is an engineer, meaning I spent a lot of time in scrap yards
           and industrial estates. This influenced my work’s aesthetic to use
           industrialisation contrasted with elements of nature as a
           representation for the digital age. Through utilising apps and ready
