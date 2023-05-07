@@ -15,16 +15,22 @@ const items: GalleryItem[] = [
         url: "https://gem.blipdiscs.com/img/galleryimages/9/1.jpeg",
         title: "Shade",
         technicalDetail: "C-type print, 35x70cm",
+        width: 724,
+        height: 724,
       },
       {
         url: "https://gem.blipdiscs.com/img/galleryimages/1/1.jpeg",
         title: "Chem",
         technicalDetail: "C-type print, 70x59cm",
+        width: 724,
+        height: 724,
       },
       {
         url: "https://gem.blipdiscs.com/img/galleryimages/1/3.jpeg",
         title: "Shelter",
         technicalDetail: "C-type print, 48x48cm",
+        width: 724,
+        height: 724,
       },
     ],
     date: 1641079797,
@@ -44,12 +50,16 @@ const items: GalleryItem[] = [
         title: "Zoom Paradise",
         technicalDetail:
           "Digital print on paper in custom spray fade box frame, 46x36cm",
+        width: 724,
+        height: 543,
       },
       {
         url: "https://gem.blipdiscs.com/img/galleryimages/2/2.jpeg",
         title: "Zoom Paradise",
         technicalDetail:
           "Digital print on paper in custom spray fade box frame, 46x36cm",
+        width: 724,
+        height: 543,
         hideCaption: true,
       },
     ],
@@ -69,11 +79,15 @@ const items: GalleryItem[] = [
         url: "https://gem.blipdiscs.com/img/galleryimages/3/1.jpeg",
         title: "Roof (I)",
         technicalDetail: "C-type print, 43x54cm",
+        width: 724,
+        height: 482,
       },
       {
         url: "https://gem.blipdiscs.com/img/galleryimages/3/2.jpeg",
         title: "Roof (II)",
         technicalDetail: "C-type print, 46x54cm",
+        width: 724,
+        height: 543,
       },
     ],
     date: 1577921397,
@@ -92,26 +106,36 @@ const items: GalleryItem[] = [
         url: "https://gem.blipdiscs.com/img/galleryimages/4/1.jpeg",
         title: "Midnight Media Player",
         technicalDetail: "Giclee print, 80x60cm",
+        width: 724,
+        height: 543,
       },
       {
         url: "https://gem.blipdiscs.com/img/galleryimages/4/3.jpeg",
         title: "Crowd Surfing",
         technicalDetail: "Giclee print, 80x100cm",
+        width: 724,
+        height: 543,
       },
       {
         url: "https://gem.blipdiscs.com/img/galleryimages/4/5.jpeg",
         title: "Drumstick",
         technicalDetail: "Giclee print, 35x70cm",
+        width: 724,
+        height: 543,
       },
       {
         url: "https://gem.blipdiscs.com/img/galleryimages/4/7.jpeg",
         title: "Crater Lake",
         technicalDetail: "Giclee print, 35x80cm",
+        width: 724,
+        height: 964,
       },
       {
         url: "https://gem.blipdiscs.com/img/galleryimages/4/2.jpeg",
         title: "Gallery overview",
         hideCaption: true,
+        width: 724,
+        height: 543,
       },
     ],
     date: 1483313397,
@@ -130,6 +154,8 @@ const items: GalleryItem[] = [
         url: "https://gem.blipdiscs.com/img/galleryimages/6/2.jpeg",
         title: "Shades of Blue Archive (Jpgs)",
         technicalDetail: "13 giclee prints on paper, 10x18cm",
+        width: 724,
+        height: 1086,
       },
     ],
     date: 1451690997,
@@ -149,6 +175,8 @@ const items: GalleryItem[] = [
         title: "Home Sweet Home",
         technicalDetail:
           "A series of 24 photographs, photocopies & cardboard boxes",
+        width: 724,
+        height: 441,
       },
       {
         url: "https://gem.blipdiscs.com/img/galleryimages/8/2.jpeg",
@@ -156,6 +184,8 @@ const items: GalleryItem[] = [
         technicalDetail:
           "A series of 24 photographs, photocopies & cardboard boxes",
         hideCaption: true,
+        width: 724,
+        height: 527,
       },
       {
         url: "https://gem.blipdiscs.com/img/galleryimages/8/3.jpeg",
@@ -163,6 +193,8 @@ const items: GalleryItem[] = [
         technicalDetail:
           "A series of 24 photographs, photocopies & cardboard boxes",
         hideCaption: true,
+        width: 724,
+        height: 482,
       },
       {
         url: "https://gem.blipdiscs.com/img/galleryimages/8/4.jpeg",
@@ -170,6 +202,8 @@ const items: GalleryItem[] = [
         technicalDetail:
           "A series of 24 photographs, photocopies & cardboard boxes",
         hideCaption: true,
+        width: 724,
+        height: 478,
       },
       {
         url: "https://gem.blipdiscs.com/img/galleryimages/8/5.jpeg",
@@ -177,6 +211,8 @@ const items: GalleryItem[] = [
         technicalDetail:
           "A series of 24 photographs, photocopies & cardboard boxes",
         hideCaption: true,
+        width: 724,
+        height: 482,
       },
       {
         url: "https://gem.blipdiscs.com/img/galleryimages/8/6.jpeg",
@@ -184,6 +220,8 @@ const items: GalleryItem[] = [
         technicalDetail:
           "A series of 24 photographs, photocopies & cardboard boxes",
         hideCaption: true,
+        width: 724,
+        height: 478,
       },
       {
         url: "https://gem.blipdiscs.com/img/galleryimages/8/7.jpeg",
@@ -191,6 +229,8 @@ const items: GalleryItem[] = [
         technicalDetail:
           "A series of 24 photographs, photocopies & cardboard boxes",
         hideCaption: true,
+        width: 724,
+        height: 482,
       },
       {
         url: "https://gem.blipdiscs.com/img/galleryimages/8/8.jpeg",
@@ -198,6 +238,8 @@ const items: GalleryItem[] = [
         technicalDetail:
           "A series of 24 photographs, photocopies & cardboard boxes",
         hideCaption: true,
+        width: 724,
+        height: 478,
       },
       {
         url: "https://gem.blipdiscs.com/img/galleryimages/8/9.jpeg",
@@ -205,6 +247,8 @@ const items: GalleryItem[] = [
         technicalDetail:
           "A series of 24 photographs, photocopies & cardboard boxes",
         hideCaption: true,
+        width: 724,
+        height: 267,
       },
       {
         url: "https://gem.blipdiscs.com/img/galleryimages/8/10.jpeg",
@@ -212,6 +256,8 @@ const items: GalleryItem[] = [
         technicalDetail:
           "A series of 24 photographs, photocopies & cardboard boxes",
         hideCaption: true,
+        width: 724,
+        height: 482,
       },
     ],
     date: 1420154997,
@@ -230,6 +276,8 @@ const items: GalleryItem[] = [
         url: "https://gem.blipdiscs.com/img/galleryimages/9/2.jpeg",
         title: "Beech Ball In The Shade (iOS)",
         technicalDetail: "Woodblock print on paper, 35x70cm",
+        width: 724,
+        height: 724,
       },
     ],
     date: 1672615797,
