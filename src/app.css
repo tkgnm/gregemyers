@@ -1,7 +1,6 @@
 :root {
   max-width: 1024px;
   margin: 0 auto;
-  padding: 2rem;
   text-align: center;
   
   font-family: Helvetica, Arial, sans-serif;
@@ -33,10 +32,3 @@ body {
   min-width: 320px;
   min-height: 100vh;
 }
-
-.banner {
-  width: 100%;
-  max-width: 30rem;
-  height: auto;
-}
-

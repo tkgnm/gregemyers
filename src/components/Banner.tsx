@@ -1,4 +1,5 @@
 import { Link } from "preact-router/match";
+import "./Banner.css";
 
 export const Banner = () => {
   return (
