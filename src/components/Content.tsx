@@ -40,6 +40,8 @@ export const Content = ({
                 src={picture.url}
                 className="content"
                 alt={(picture.title, picture.technicalDetail)}
+                width={picture.width}
+                height={picture.height}
               />
             </p>
             {!picture.hideCaption && (
