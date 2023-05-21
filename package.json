@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@types/node": "^20.2.1",
     "preact": "^10.11.3",
     "preact-router": "^4.1.0"
   },
