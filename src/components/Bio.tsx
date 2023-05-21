@@ -2,7 +2,7 @@ import { Divider } from "./Divider";
 import { useState, useEffect } from "preact/hooks";
 
 export const Bio = () => {
-  const [html, setHtml] = useState("");
+  const [html, setHtml] = useState("Loading...");
 
   useEffect(() => {
     fetch("https://gregemyers-api-fly.fly.dev/api/bio", {
