@@ -7,14 +7,13 @@ import { useState, useEffect } from "preact/hooks";
 
 export const Bio = () => {
   const [html, setHtml] = useState("Loading...");
-  let bearerToken = import.meta.env.VITE_BEARER_TOKEN;
-  console.log(bearerToken);
+  let BEARER_TOKEN = import.meta.env.VITE_BEARER_TOKEN;
   useEffect(() => {
     fetch("https://gregemyers-api-fly.fly.dev/api/bio", {
       method: "GET",
       headers: {
         "Content-Type": "application/json",
-        Authorization: `Bearer ${bearerToken}`,
+        Authorization: `Bearer ${BEARER_TOKEN}`,
       },
     })
       .then((res) => res.json())
