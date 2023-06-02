@@ -10,7 +10,7 @@ export const Gallery = () => {
         <div className="grid-item">
           <Link
             activeClassName="active"
-            href={`https://www.gregemyers.com/${item.title
+            href={`${item.title
               .replace(/[^a-zA-Z0-9 -]|[\s]/gu, "")
               .toLowerCase()}`}
           >

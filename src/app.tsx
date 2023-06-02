@@ -2,6 +2,7 @@ import "./app.css";
 import Router, { Route } from "preact-router";
 import { Home } from "./components/Home";
 import { Banner } from "./components/Banner";
+import { Bio } from "./components/Bio";
 import { NavBar } from "./components/NavBar";
 import { Contact } from "./components/Contact";
 import { Gallery } from "./components/Gallery";
@@ -15,7 +16,8 @@ export function App() {
       <NavBar />
       <Router>
         <Route path="/" component={Home} />
-        <Route path="/contact/" component={Contact} />
+        <Route path="/bio" component={Bio} />
+        <Route path="/contact" component={Contact} />
         {galleryItems.map((item) => (
           <Content
             path={`${item.title
