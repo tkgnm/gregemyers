@@ -15,7 +15,7 @@ export function App() {
       <NavBar />
       <Router>
         <Route path="/" component={Home} />
-        <Route path="/contact" component={Contact} />
+        <Route path="/contact/" component={Contact} />
         {galleryItems.map((item) => (
           <Content
             path={`${item.title
