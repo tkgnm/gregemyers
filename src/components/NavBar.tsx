@@ -12,7 +12,7 @@ export const NavBar = () => {
             </Link>
           </li>
           <li>
-            <Link activeClassName="active" href="/bio">
+            <Link activeClassName="active" href="/bio/">
               Bio
             </Link>
           </li>
@@ -22,7 +22,7 @@ export const NavBar = () => {
             </Link>
           </li>
           <li>
-            <Link activeClassName="active" href="/contact">
+            <Link activeClassName="active" href="/contact/">
               Contact
             </Link>
           </li>
